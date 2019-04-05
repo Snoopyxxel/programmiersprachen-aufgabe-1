@@ -2,21 +2,21 @@
 
 long long divisionsearch(long long inp){
     bool dividable = false;
-    long long divisor = inp;
+    long long dividend = inp;
     while (!dividable){
-        for (long long i = 2; i <= inp; ++i) {
-            if (divisor % i != 0) {
+        for (int i = 2; i <= inp; ++i) {
+            if (dividend % i != 0) {
                 break;
             }
             if (i == inp) {
-                return divisor;
+                return dividend;
             }
         }
-        divisor += inp;
+        dividend += inp;
     }
 }
 
 int main() {
-    std::cout << divisionsearch(10) << std::endl;
+    std::cout << divisionsearch(20) << std::endl;
     return 0;
 }

@@ -1,6 +1,7 @@
 #include <iostream>
+#include "catch.hpp"
 
-long long divisionsearch(long long inp){
+long long Divisionsearch(long long inp){
     bool dividable = false;
     long long dividend = inp;
     while (!dividable){
@@ -16,7 +17,15 @@ long long divisionsearch(long long inp){
     }
 }
 
+/*
+TEST_CASE( "Dividends are computed") {
+    REQUIRE( Divisionsearch(10) == 2520);
+    REQUIRE( Divisionsearch(20) == 232792560);
+}
+*/
+
+
 int main() {
-    std::cout << divisionsearch(20) << std::endl;
+    std::cout << Divisionsearch(20) << std::endl;
     return 0;
 }

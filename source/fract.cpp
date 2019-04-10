@@ -1,7 +1,7 @@
 #include "catch.hpp"
 
 float fract(float in){
-    return 1;
+    return in - floor(in);
 }
 
 TEST_CASE("fract"){

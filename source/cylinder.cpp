@@ -5,14 +5,14 @@ float vol_cylin(float radius, float height){
     if(radius < 0 or height < 0){
         return -1;
     }
-    return 1;
+    return M_PI * pow(radius, 2) * height;
 }
 
 float surface_cylin(float radius, float height){
     if(radius < 0 or height < 0){
         return -1;
     }
-    return 1;
+    return 2 * M_PI * radius * (height + radius);  //2πr(h + r)
 }
 
 TEST_CASE("Volume of a Cylinder", "[cylinder]"){

@@ -1,0 +1,24 @@
+Deklaration:
+Der Name, der Typ des zurückgegebenen Wertes (oder dass es keinen gibt), die Namen der übergebenen Werte usw werden spezifiziert
+double divide(double a, double b);
+class Auto;
+int a;
+
+Definition:
+Der Inhalt der Funktion wird angegeben. Hier steht der Programmcode, der ausgeführt wird, wenn die Funktion benutzt wird.
+Die Variablen und Funktionen der Klasse werden deklariert
+
+double divide(double a, double b){
+return a / b;
+}
+
+class Auto{
+public:
+void fahren();
+void bremsen();
+private:
+std::string marke;
+int ps;
+};
+
+a = 10;

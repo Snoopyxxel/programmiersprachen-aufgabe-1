@@ -1,0 +1,11 @@
+Initialisierung:
+Eine Variable wird erstellt und ihr Typ (und Name) wird festgelegt.
+int a;
+
+Zuweisung:
+Einer Variable wird ein Wert zugewiesen
+a = 10;
+
+Unterschied ist, dass zwar während der Initialisierung der Variable ein Wert zugewiesen werden kann,
+die Zuweisung aber sonst nur erfolgen kann, wenn die Variable bereits vorhanden ist.
+Bei der Initialisierung allerdings wird eine komplett neue Variable erstellt.

@@ -1,0 +1,17 @@
+Typen:
+int, bool, char, double
+
+Variablen:
+a, b, c, d, five, e
+
+Werte:
+9, false, 'a', 1.3, 5
+
+Das Schlüsselwort const (kurz für constant) vor einer Variablen gibt an, dass diese Variable nicht mehr verändert werden darf.
+
+Bei einer Typkonvertierung werden Variablen eines bestimmten Typs in einen anderen Typ übertragen.
+Es können Probleme auftreten wenn die Typen nicht kompatibel sind (z.b. wenn versucht wird den string 'abc' in einen bool zu übertragen).
+
+a/two ergibt keinen Sinn, da two keine Variable ist und auch nicht mit "two" als String gekennzeichnet ist.
+(Division von int durch String würde trotzdem keinen Sinn ergeben)
+Außerdem wird versucht der Konstanten five einen neuen Wert zuzuordnen.

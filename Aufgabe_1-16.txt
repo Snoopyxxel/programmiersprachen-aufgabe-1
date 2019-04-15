@@ -69,10 +69,12 @@ Variable:
 Wert, der unter dem immer gleichen Namen aufgerufen und verändert werden kann.
 
 Name:
-rlly?
+int a;
+    ^
 
 Wert:
-rlly?
+a = 10;
+    ^
 
 Initialisierung:
 Eine Variable wird erstellt und ihr Typ (und Name) wird festgelegt.

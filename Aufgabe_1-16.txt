@@ -84,6 +84,6 @@ Einer Variable wird ein Wert zugewiesen
 
 const:
 Das Schlüsselwort const (kurz für constant) vor einer Variablen gibt an, dass diese Variable nicht mehr verändert werden darf.
--*
+
 Gültigkeitsbereich:
 Gibt an, in welchem Bereich eine Variable aufgerufen werden kann.

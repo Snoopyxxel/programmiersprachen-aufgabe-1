@@ -1,0 +1,87 @@
+C++:
+Objektorientierte Programmiersprache
+
+Quellcode:
+In einer Programmiersprache formulierte Anweisungen and den Computer
+
+Compiler:
+Programm, welches die Programmiersprache in einem Programm in Objektcode übersetzt
+
+Linker:
+Programm, welches mehrere Dateien mit Quellcode in ein Programm zusammenführt (linkt)
+
+Objektcode:
+Maschininenausführbarer Code, der allderdings noch nicht mit dem Code der anderen Sourcecode-Dateien zu einem executable verlinkt wurde
+
+Ausführbare Datei:
+Datei, die als Endprodukt des Programmierens entsteht und die ohne weitere Schritte vom beutzer ausgeführt werden kann.
+
+main():
+Die Funktion, die immer beim Ausführen des Programms ausgeführt wird.
+
+#include:
+Includiert Sourcecode aus anderen Dateien im Programm
+
+Kommentar:
+Teil des Quellcodes der nicht ausgeführt wird und dazu dient die Funktionalität des Programms zu dokumentieren/ zu erklären
+
+Header:
+Datei, die Funktions- und Klassendeklarationen ernthält.
+
+Programm:
+"Ausführbare" Handlungsanweisung an den Computer.
+
+Ausgabe:
+Zeichen bzw Strings die dem Benutzer während der Laufzeit des Programms visuell auf der Konsole ausgegeben werden.
+
+std::cout
+Command zum Ausgeben auf der Konsole
+
+std::cin
+Command zum Einlesen von Nutzereingeaben aus der Konsole
+
+<<:
+Trenner zwischen Variablen verschiedenen Typs, die auf der Konsole ausgegeben werden sollen
+
+>>:
+Trenner zwischen std::cin und dem Name der Variable, der der eingelesene Wert zugewiesen werden soll
+
+Funktion:
+Algorithmus, der in einer Programmiersprache geschrieben ist und im Programm ausgeführt werden kann.
+
+Funktionssignatur:
+Enthält die wichtigen Informationen zu einer Definition (nicht was sie tut) wie z.b. Rückgabetyp.
+
+Deklaration:
+Der Name, der Typ des zurückgegebenen Wertes (oder dass es keinen gibt), die Namen der übergebenen Werte usw werden spezifiziert
+
+Definition:
+Der Inhalt der Funktion wird angegeben. Hier steht der Programmcode, der ausgeführt wird, wenn die Funktion benutzt wird.
+Die Variablen und Funktionen der Klasse werden deklariert
+
+Typ:
+Gibt an, welche Datenstruktur eine Variable hat bzw. von welchem Typ sie ist.
+
+Typkonvertierung:
+Bei einer Typkonvertierung werden Variablen eines bestimmten Typs in einen anderen Typ übertragen.
+
+Variable:
+Wert, der unter dem immer gleichen Namen aufgerufen und verändert werden kann.
+
+Name:
+rlly?
+
+Wert:
+rlly?
+
+Initialisierung:
+Eine Variable wird erstellt und ihr Typ (und Name) wird festgelegt.
+
+Zuweisung:
+Einer Variable wird ein Wert zugewiesen
+
+const:
+Das Schlüsselwort const (kurz für constant) vor einer Variablen gibt an, dass diese Variable nicht mehr verändert werden darf.
+
+Gültigkeitsbereich:
+Gibt an, in welchem Bereich eine Variable aufgerufen werden kann.

@@ -3,7 +3,7 @@ project(programmiersprachen-aufgabe-1)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Aufgage_1.7 1_3-DivisionChecker.cpp CatchSetup.cpp )
+add_executable(Aufgage_1.7 1-3_DivisionChecker.cpp CatchSetup.cpp )
 add_executable(Aufgabe_1.8 1-8_tests.cpp CatchSetup.cpp)
 add_executable(Aufgabe_1.9 1-9_checksum.cpp CatchSetup.cpp)
 add_executable(Aufgabe_1.10 1-10_sum_multiples.cpp CatchSetup.cpp)

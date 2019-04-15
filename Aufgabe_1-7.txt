@@ -1,0 +1,12 @@
+Signatur:
+Datentyp des Rückgabewertes; Name der Funktion; Scope ("gehört" zu welcher Klasse); Name, Typ, Anzahl und Reihenfolge der übergebenen Parameter
+
+
+Scope:
+var: überall
+
+a, b: von klammer 1 bis 2
+
+var in square: von klammer 3 bis 4
+
+i in for-schleife in der main(): von klammer 6 bis 7
